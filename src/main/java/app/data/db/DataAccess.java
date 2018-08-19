@@ -18,7 +18,7 @@ import java.util.List;
 
 @Repository
 @ComponentScan(basePackageClasses = {WebAppInitializer.class})
-public class DataAccess implements Repos{
+public class DataAccess implements Service{
 
     private JdbcTemplate jdbcTemplate;
 
