@@ -4,7 +4,7 @@ import app.data.entity.Book;
 
 import java.util.List;
 
-public interface Repos {
+public interface Service {
 
     List<Book> bookList();
 
